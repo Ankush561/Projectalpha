@@ -7,4 +7,6 @@
 //      then both BATTLE_ENGINE and POKEMON_EXPANSION must be defined here.
 #define BATTLE_ENGINE
 
+#define ITEM_EXPANSION
+
 #endif
