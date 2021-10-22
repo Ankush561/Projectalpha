@@ -667,7 +667,10 @@ bool8 StandardWildEncounter(u16 currMetaTileBehavior, u16 previousMetaTileBehavi
                     {
                         BattleSetup_StartWildBattle();
                     }
+<<<<<<< HEAD
                     
+=======
+>>>>>>> 0ef243b4ff7c1d0103a5e4b26bfa227020032251
                     return TRUE;
                 }
 

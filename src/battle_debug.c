@@ -763,8 +763,12 @@ static void Task_ShowAiPoints(u8 taskId)
                 data->aiIconSpriteIds[i] = 0xFF;
             }
         }
+<<<<<<< HEAD
         #ifndef POKEMON_EXPANSION
         data->aiMonSpriteId = CreateMonPicSprite_HandleDeoxys(gBattleMons[data->aiBattlerId].species,
+=======
+        data->aiMonSpriteId = CreateMonPicSprite(gBattleMons[data->aiBattlerId].species,
+>>>>>>> 0ef243b4ff7c1d0103a5e4b26bfa227020032251
                                                  gBattleMons[data->aiBattlerId].otId,
                                                  gBattleMons[data->aiBattlerId].personality,
                                                  TRUE,
